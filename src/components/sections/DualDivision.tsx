@@ -16,7 +16,7 @@ export function DualDivision() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6 }}
-          className="group relative bg-slate-50 dark:bg-[var(--color-dark-card)] rounded-3xl p-8 lg:p-12 border border-slate-200 dark:border-[var(--color-dark-border)] shadow-sm hover:shadow-xl dark:shadow-none hover:border-[var(--color-corporate-blue)]/50 dark:hover:border-[var(--color-corporate-blue)]/50 transition-all duration-300 overflow-hidden"
+          className="group relative bg-slate-50 dark:bg-[var(--color-dark-card)] rounded-3xl p-6 sm:p-8 lg:p-12 border border-slate-200 dark:border-[var(--color-dark-border)] shadow-sm hover:shadow-xl dark:shadow-none hover:border-[var(--color-corporate-blue)]/50 dark:hover:border-[var(--color-corporate-blue)]/50 transition-all duration-300 overflow-hidden"
         >
           <div className="absolute top-0 right-0 p-8 opacity-5 group-hover:opacity-10 transition-opacity transform group-hover:scale-110 duration-500">
             <Factory className="w-48 h-48 text-[var(--color-corporate-navy)] dark:text-white" />
@@ -56,7 +56,7 @@ export function DualDivision() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="group relative bg-[var(--color-corporate-navy)] dark:bg-[var(--color-dark-card)] rounded-3xl p-8 lg:p-12 border border-transparent dark:border-[var(--color-dark-border)] shadow-lg hover:shadow-xl dark:shadow-none hover:border-blue-500/50 transition-all duration-300 overflow-hidden"
+          className="group relative bg-[var(--color-corporate-navy)] dark:bg-[var(--color-dark-card)] rounded-3xl p-6 sm:p-8 lg:p-12 border border-transparent dark:border-[var(--color-dark-border)] shadow-lg hover:shadow-xl dark:shadow-none hover:border-blue-500/50 transition-all duration-300 overflow-hidden"
         >
           {/* subtle gradient glow */}
           <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />

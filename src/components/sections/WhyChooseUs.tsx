@@ -67,7 +67,7 @@ export function WhyChooseUs() {
         </div>
 
         {/* Decorative Graphic Side */}
-        <div className="relative lg:h-[600px] rounded-3xl overflow-hidden bg-[var(--color-corporate-navy)] dark:bg-[var(--color-dark-card)] p-8 flex items-center justify-center border border-transparent dark:border-[var(--color-dark-border)] shadow-xl">
+        <div className="hidden lg:flex relative lg:h-[600px] rounded-3xl overflow-hidden bg-[var(--color-corporate-navy)] dark:bg-[var(--color-dark-card)] p-8 items-center justify-center border border-transparent dark:border-[var(--color-dark-border)] shadow-xl">
           <div className="absolute inset-0 bg-gradient-to-br from-[var(--color-corporate-blue)]/20 to-transparent pointer-events-none" />
           
           <div className="relative max-w-sm w-full space-y-6">

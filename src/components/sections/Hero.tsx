@@ -8,7 +8,7 @@ import { Section } from "@/components/ui/Section"
 
 export function Hero() {
   return (
-    <Section className="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden flex items-center min-h-[90vh]">
+    <Section className="relative pt-24 pb-20 md:pt-48 md:pb-32 overflow-hidden flex items-center min-h-[90vh]">
       {/* Background Decor */}
       <div className="absolute inset-0 -z-10 bg-slate-50 dark:bg-[var(--color-dark-bg)]" />
       <div className="absolute top-0 right-0 -translate-y-12 translate-x-1/3 w-[800px] h-[800px] bg-blue-500/10 dark:bg-blue-500/5 rounded-full blur-3xl pointer-events-none" />
@@ -30,7 +30,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
-          className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-slate-900 dark:text-white tracking-tight leading-tight mb-8"
+          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-slate-900 dark:text-white tracking-tight leading-tight mb-8"
         >
           Manufacturing Excellence,{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-corporate-blue)] to-blue-400">

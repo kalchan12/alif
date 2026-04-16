@@ -14,7 +14,7 @@ export function ContactCTA() {
         <div className="absolute inset-0 bg-gradient-to-br from-[var(--color-corporate-navy)] to-blue-900 pointer-events-none" />
         <div className="absolute inset-0 opacity-20 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] pointer-events-none" />
 
-        <div className="relative z-10 p-10 md:p-16 lg:p-20 flex flex-col md:flex-row items-center justify-between gap-10">
+        <div className="relative z-10 p-6 sm:p-10 md:p-16 lg:p-20 flex flex-col md:flex-row items-center justify-between gap-10">
           <div className="max-w-xl text-center md:text-left">
             <motion.h2
                initial={{ opacity: 0, y: 20 }}
