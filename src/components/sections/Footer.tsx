@@ -8,8 +8,8 @@ export function Footer() {
           {/* Logo & About */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <div className="bg-slate-100 dark:bg-slate-800 p-1 rounded-lg text-white overflow-hidden">
-                <img src="/logo.png" alt="Alif PLC Logo" className="h-7 w-7 object-cover" />
+              <div className="bg-slate-100 dark:bg-slate-800 p-1 rounded-full text-white overflow-hidden border border-slate-200 dark:border-slate-800">
+                <img src="/logo.png" alt="Alif PLC Logo" className="h-7 w-7 object-cover rounded-full" />
               </div>
               <span className="text-xl font-bold text-slate-900 dark:text-white tracking-tight">
                 Alif <span className="text-[var(--color-corporate-blue)]">PLC</span>
